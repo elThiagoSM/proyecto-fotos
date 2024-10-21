@@ -1,14 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import Header from "../reusable/Header";
-import Footer from "../reusable/Footer";
+import Header from '../reusable/Header';
+import Footer from '../reusable/Footer';
+import DropFiles from '../reusable/DropFiles';
 
 const Home = () => {
   return (
     <div>
       <Header />
 
-      <div> Hola </div>
+      <DropFiles />
 
       <Footer />
     </div>
